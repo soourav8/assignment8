@@ -8,15 +8,43 @@
     height: 450px;
     border-radius: 0;
 }
+
+.card p{
+    font-size: 40px;
+    font-weight: 700;
+}
+.card-a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #6047EC;
+    
+}
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.author-image{
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+
+}
 .author-image img{
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    margin-top: 32px;
+    
     
 }
 .author-image p{
     font-size: 24px;
     font-weight: 600;
-    margin-top: 32px;
+    margin: 0 0 0 24px ;
+    
 }
+.author-image small{
+    margin-left: 24px;
+}
+
+
