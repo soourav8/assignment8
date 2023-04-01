@@ -1,7 +1,9 @@
 import React from 'react';
 import './Card.css'
-const Card = ({ value }) => {
-    console.log(value)
+const Card = ({ value, handleRead }) => {
+
+    
+    
     const { cover_image, picture, _id, read_time, title, name , published} = value
     return (
         <div>
@@ -18,13 +20,13 @@ const Card = ({ value }) => {
                    </div>
                 </div>
                 <div>
-                    <small>{read_time}min read</small><span>@</span>
+                    <small onClick={handleRead}>{read_time}min read</small><span>@</span>
                     
                 </div>
                 </div>
                 <h2>{title}</h2>
 
-                <a>Mark as read</a>
+                <a href="javascript:void(0);" onClick={()=>handleRead(_id,read_time)}>Mark as read</a>
             </div>
         </div>
     );

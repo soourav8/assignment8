@@ -13,9 +13,9 @@
     font-size: 40px;
     font-weight: 700;
 }
-.card-a{
+.card-button{
     cursor: pointer;
-    text-decoration: none;
+    
     color: #6047EC;
     
 }

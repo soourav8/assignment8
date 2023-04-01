@@ -10,11 +10,18 @@ const Blog = () => {
         .then(data => setValues(data))
 
     },[])
+
+    const handleRead = (_id, read_time) => {
+        console.log(_id)
+        console.log(read_time)
+
+    }
     return (
         <div className='blog-container'>
+            
             <div className='blog'>
                 {
-                    values.map(value=> <Card value={value} key={value.index}></Card>)
+                    values.map(value=> <Card value={value} key={value.index} handleRead={handleRead}></Card>)
                 }
 
             </div>
