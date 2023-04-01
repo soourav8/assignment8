@@ -44,13 +44,13 @@ const Blog = () => {
     return (
         <div className='blog-container'>
 
-            <div className='blog'>
+            <div className='blog  '>
                 {
                     values.map(value => <Card value={value} key={value.index} handleRead={handleRead} handleTitle={handleTitle}></Card>)
                 }
 
             </div>
-            <div className='bookmark'>
+            <div className='bookmark '>
                 <Bookmark readTime={readTime}></Bookmark>
                 <Title title={title}></Title>
 
