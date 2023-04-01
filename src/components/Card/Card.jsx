@@ -26,7 +26,7 @@ const Card = ({ value, handleRead }) => {
                 </div>
                 <h2>{title}</h2>
 
-                <a href="javascript:void(0);" onClick={()=>handleRead(_id,read_time)}>Mark as read</a>
+                <button onClick={()=>handleRead(_id,read_time)}>Mark as read</button>
             </div>
         </div>
     );

@@ -1,0 +1,15 @@
+
+.bookmark p{
+    
+    font-size: 17px;
+    font-weight: 700;
+    color: #6047EC;
+    padding: 50px;
+    background: rgba(96, 71, 236, 0.1);
+    height: 100px;
+    margin-top: 27px;
+    position: sticky;
+    
+    
+    
+}

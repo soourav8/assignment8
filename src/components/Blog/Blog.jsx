@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import './Blog.css'
 import Card from '../Card/Card';
+import Bookmark from '../Bookmark/Bookmark';
+import { faLaptopMedical } from '@fortawesome/free-solid-svg-icons';
 
 const Blog = () => {
     const [values, setValues] = useState([])
+    const [readTime, setReadTime] = useState('')
     useEffect(()=>{
         fetch('generated.json')
         .then(res => res.json() )
@@ -13,7 +16,21 @@ const Blog = () => {
 
     const handleRead = (_id, read_time) => {
         console.log(_id)
-        console.log(read_time)
+        
+        const previousReadTime = JSON.parse(localStorage.getItem('read_time'));
+        
+        if(previousReadTime){
+
+            const sum = previousReadTime + read_time;
+            localStorage.setItem('read_time',sum)
+            setReadTime(sum)
+
+        }
+        else{
+            localStorage.setItem('read_time',read_time)
+            setReadTime(read_time)
+        }
+
 
     }
     return (
@@ -26,7 +43,7 @@ const Blog = () => {
 
             </div>
             <div className='bookmark'>
-                <p></p>
+                <Bookmark readTime={readTime}></Bookmark>
 
             </div>
             

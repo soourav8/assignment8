@@ -13,12 +13,22 @@
     font-size: 40px;
     font-weight: 700;
 }
-.card-button{
+
+
+.card button {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    /*optional*/
+    font-family: arial, sans-serif;
+    /*input has OS specific font-family*/
+    color: #069;
+    text-decoration: underline;
     cursor: pointer;
-    
     color: #6047EC;
-    
-}
+  }
+  
+
 .card-info{
     display: flex;
     justify-content: space-between;

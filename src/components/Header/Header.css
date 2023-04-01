@@ -17,3 +17,7 @@ img{
     width: 60px;
     border-radius: 50%;
 }
+.hr{
+    width: 100%;
+    background-color: aqua;
+}
