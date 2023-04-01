@@ -1,0 +1,43 @@
+[
+  {
+    "_id": "6427dffa9388cf3bc046b3df",
+    "index": 0,
+    "cover_image": "https://img.freepik.com/free-photo/medium-shot-man-wearing-vr-glasses_23-2149126949.jpg?w=1380&t=st=1680335253~exp=1680335853~hmac=4e8393f3a05e33325f641f0bdda72d29df202262b4196310aa0605da05da4def",
+    "picture": "https://img.freepik.com/free-photo/waistup-portrait-cute-beautiful-asian-woman-orange-hoodie-introduce-produce-banner-pointing-blank-white-space-holding-product-smiling-recommend-advertisement-white-background_176420-51222.jpg?w=1060&t=st=1680334973~exp=1680335573~hmac=d8a88bb0bac77a25374cf89ed87afd051aade984ee23f44a8f465e81e509835b",
+    "read_time": 5,
+    "name": "Susanne Dudley",
+    "title": "How to get your first job as a self-taught programmer",
+    "published": "2023-03-31T05:34:02 -06:-30"
+  },
+  {
+    "_id": "6427dffa9fe8b3fed4e77171",
+    "index": 1,
+    "cover_image": "https://img.freepik.com/free-photo/medium-shot-woman-wearing-vr-glasses_23-2149126947.jpg?w=1060&t=st=1680335295~exp=1680335895~hmac=b553fe655605de85bd8bacb86c9babf4d17222f31e68b37c4bf1f53746601c57",
+    "picture": "https://img.freepik.com/free-photo/charming-emotive-caucasian-woman-pointing-down-her-t-shirt-while-smiling-joyfully-expressing-positive-emotions_176420-17198.jpg?w=1060&t=st=1680335080~exp=1680335680~hmac=740c6800e18171a95a0bb6d1a6e0af6bb941eac0647243a498d5bf94ae27726f",
+    "read_time": 10,
+    "name": "Burke Zimmerman",
+    "title": "How ai will chang the future of developers?",
+    "published": "2023-01-11T08:27:57 -06:-30"
+  },
+  {
+    "_id": "6427dffa344992eab04249e2",
+    "index": 2,
+    "cover_image": "https://img.freepik.com/free-photo/close-up-people-wearing-lab-coats_23-2149126948.jpg?w=1060&t=st=1680335319~exp=1680335919~hmac=44dea9f7ad2c3b18c98fef7b6511713fa967255824ffe02c51b93132a15e7841",
+    "picture": "https://img.freepik.com/free-photo/good-looking-young-happy-brown-haired-lady-showing-her-white-perfect-teeth-while-smiling-cheerfully-crossing-hands-her-chest-posing-beige-wall_295783-10749.jpg",
+    "read_time": 12,
+    "name": "Emilia Rivers",
+    "title": "Top upcoming chat bots that will defeat chat-gpt",
+    "published": "2023-02-30T09:38:30 -06:-30"
+  },
+  {
+    "_id": "6427dffad3674f9a9461aff0",
+    "index": 3,
+    "cover_image": "https://img.freepik.com/free-photo/medium-shot-person-wearing-protection-suit_23-2149126946.jpg?w=1060&t=st=1680335345~exp=1680335945~hmac=48fbeef70391b859296bac512fedc3aa04d7477e1bedeefcf68307e7ce786827",
+    "picture": "https://img.freepik.com/free-photo/young-woman-with-messy-bun-hair-style_23-2149459252.jpg?t=st=1680335124~exp=1680335724~hmac=17325b9ee209025da7ab51dd36029849215c907c746c0ce00ef6bff98d3fed2b",
+    "read_time": 15,
+    "name": "Sutton Osborne",
+    "title": "Why React is so popular among front-end developers?",
+    "published": "2023-2-01T04:31:40 -06:-30"
+  }
+
+]

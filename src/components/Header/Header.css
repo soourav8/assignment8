@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+p{
+    font-size: 40px;
+    color: #111111;
+    font-weight: 700;
+    ;
+}
+img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}

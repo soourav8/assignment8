@@ -1,0 +1,22 @@
+.card{
+    width: 845px;
+    height: 821px;
+}
+
+.card img{
+    width: 845px;
+    height: 450px;
+    border-radius: 0;
+}
+.author-image img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 32px;
+    
+}
+.author-image p{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 32px;
+}
