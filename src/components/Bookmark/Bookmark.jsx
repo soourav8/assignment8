@@ -7,10 +7,14 @@ const Bookmark = ({readTime}) => {
         console.log(getReadTime);
 
     },[readTime])
+    
     return (
+        <>
         <div className='bookmark'>
             <p>Spent time on read :{readTime} min</p> 
         </div>
+        
+        </>
     );
 };
 

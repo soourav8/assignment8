@@ -1,6 +1,8 @@
 import React from 'react';
 import './Card.css'
-const Card = ({ value, handleRead }) => {
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBookBookmark } from '@fortawesome/free-solid-svg-icons'
+const Card = ({ value, handleRead, handleTitle}) => {
 
     
     
@@ -20,13 +22,13 @@ const Card = ({ value, handleRead }) => {
                    </div>
                 </div>
                 <div>
-                    <small onClick={handleRead}>{read_time}min read</small><span>@</span>
+                    <small onClick={handleRead}>{read_time}min read</small> <span onClick={()=> handleTitle(title)}><FontAwesomeIcon icon={faBookBookmark} /></span>
                     
                 </div>
                 </div>
                 <h2>{title}</h2>
 
-                <button onClick={()=>handleRead(_id,read_time)}>Mark as read</button>
+                <button onClick={()=>handleRead(read_time)}>Mark as read</button>
             </div>
         </div>
     );
